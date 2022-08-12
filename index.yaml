@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   humio-kafka-instance-helm-chart:
   - apiVersion: v2
+    appVersion: 1.0.4
+    created: "2022-08-12T13:47:46.12181783Z"
+    description: A Helm chart for Kubernetes
+    digest: 8185c2c70cea055ead0e2412218dd46c4771476e39a2ddb666204ad3ae6a9fed
+    name: humio-kafka-instance-helm-chart
+    type: application
+    urls:
+    - https://github.com/humio-contrib/humio-kafka-instance-helm-chart/releases/download/v1.0.4/humio-kafka-instance-helm-chart-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v2
     appVersion: 1.0.3
     created: "2022-08-12T13:39:37.573548571Z"
     description: A Helm chart for Kubernetes
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/humio-contrib/humio-kafka-instance-helm-chart/releases/download/1.0.3/humio-kafka-instance-helm-chart-1.0.3.tgz
     version: 1.0.3
-generated: "2022-08-12T13:39:37.572292848Z"
+generated: "2022-08-12T13:47:46.121208017Z"
