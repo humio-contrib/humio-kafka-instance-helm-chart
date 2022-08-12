@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -ev
 package=$(yq -r '.name' chart/Chart.yaml)
+echo pushing $(ls ${package}*.tgz) to oci://ghcr.io/$GITHUB_REPOSITORY/charts
 helm push $(ls ${package}*.tgz) oci://ghcr.io/$GITHUB_REPOSITORY/charts
 #
 mkdir /tmp/gh-pages
